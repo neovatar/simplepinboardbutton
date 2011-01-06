@@ -1,0 +1,6 @@
+<!ENTITY simplepinboardbuttonContext-pinLink.label "Add link to pinboard.in">
+<!ENTITY simplepinboardbuttonContext-pinPage.label "Add page to pinboard.in">
+<!ENTITY simplepinboardbuttonToolbarButton-home.label "Goto pinboard.in">
+<!ENTITY simplepinboardbuttonToolbarButton-home.tooltip "Go to your pinboard.in home">
+<!ENTITY simplepinboardbuttonToolbarButton-pin.label "Add to pinboard.in">
+<!ENTITY simplepinboardbuttonToolbarButton-pin.tooltip "Add current location to pinboard.in">

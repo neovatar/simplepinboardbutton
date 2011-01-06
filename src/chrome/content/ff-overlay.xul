@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://simplepinboardbutton/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://simplepinboardbutton/locale/overlay.dtd">
+<overlay id="simplepinboardbutton-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="simplepinboardbutton-strings" src="chrome://simplepinboardbutton/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+
+    <!-- "add to pinboard.in" button -->
+    <toolbarbutton id="simplepinboardbutton-pin" class="toolbarbutton-1 chromeclass-toolbar-additional simplepinboardbutton"
+      label="&simplepinboardbuttonToolbarButton-pin.label;" tooltiptext="&simplepinboardbuttonToolbarButton-pin.tooltip;"
+      oncommand="simplepinboardbutton.onToolbarButtonCommand('pin')"/>
+
+    <!-- "go to pinboard.in" button -->
+    <toolbarbutton id="simplepinboardbutton-home" class="toolbarbutton-1 chromeclass-toolbar-additional simplepinboardbutton"
+      label="&simplepinboardbuttonToolbarButton-home.label;" tooltiptext="&simplepinboardbuttonToolbarButton-home.tooltip;"
+      oncommand="simplepinboardbutton.onToolbarButtonCommand('home')"/>
+
+  </toolbarpalette>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-simplepinboardbuttonPinLink" insertbefore="context-bookmarklink" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-32x32.png" accesskey="P" label="&simplepinboardbuttonContext-pinLink.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinLink',gContextMenu.linkURL);" />
+    <menuitem id="context-simplepinboardbuttonPinPage" insertbefore="context-bookmarkpage" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-32x32.png" accesskey="P" label="&simplepinboardbuttonContext-pinPage.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinPage',gContextMenu.linkURL);" />
+  </popup>
+
+
+</overlay>

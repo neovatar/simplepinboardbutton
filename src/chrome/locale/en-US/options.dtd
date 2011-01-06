@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "simplepinboardbutton preferences">
+<!ENTITY pane1.title "simplepinboardbutton preferences">
+<!ENTITY quicksearchfolder.label "A String Preference">
+<!ENTITY quicksearchfolder.accesskey "S">

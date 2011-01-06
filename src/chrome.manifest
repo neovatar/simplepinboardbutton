@@ -1,0 +1,7 @@
+content   simplepinboardbutton                 chrome/content/
+skin      simplepinboardbutton   classic/1.0   chrome/skin/
+locale    simplepinboardbutton   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://simplepinboardbutton/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://simplepinboardbutton/skin/overlay.css

@@ -1,0 +1,20 @@
+#simplepinboardbutton-pin,
+#wrapper-simplepinboardbutton-pin
+
+  {list-style-image: url("chrome://simplepinboardbutton/skin/pinboard-red-multi-40x48.png");}
+
+#simplepinboardbutton-home,
+#wrapper-simplepinboardbutton-home
+
+  {list-style-image: url("chrome://simplepinboardbutton/skin/pinboard-blue-multi-40x48.png");}
+
+/* common style for all custom buttons */
+.simplepinboardbutton                    {-moz-image-region: rect( 0px 24px 24px  0px);}
+
+.simplepinboardbutton:hover       {-moz-image-region: rect(24px 24px 48px  0px);}
+
+[iconsize="small"] .simplepinboardbutton
+    {-moz-image-region: rect( 0px 40px 16px 24px);}
+
+[iconsize="small"] .simplepinboardbutton:hover
+    {-moz-image-region: rect(24px 40px 40px 24px);}
