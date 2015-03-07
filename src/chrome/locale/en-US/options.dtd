@@ -1,4 +1,10 @@
 <!ENTITY prefwindow.title "simplepinboardbutton preferences">
 <!ENTITY pane1.title "simplepinboardbutton preferences">
-<!ENTITY quicksearchfolder.label "A String Preference">
-<!ENTITY quicksearchfolder.accesskey "S">
+<!ENTITY searchmode.label "Choose search mode:">
+<!ENTITY searchmode.choice.fulltext "Full text search">
+<!ENTITY searchmode.choice.tags "Search tags">
+<!ENTITY savemode.label "Choose bookmarking option:">
+<!ENTITY savemode.choice.popup "Popup window">
+<!ENTITY savemode.choice.popuptags "Popup window, display tag cloud">
+<!ENTITY savemode.choice.samewindow "Use active window/tab">
+<!ENTITY savemode.choice.samewindowtags "Use active window/tab, display tag cloud">

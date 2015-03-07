@@ -4,18 +4,18 @@
     <em:id>simplepinboardbutton@neovatar.org</em:id>
     <em:type>2</em:type>
     <em:name>simplepinboardbutton</em:name>
-    <em:version>0.4.8</em:version>
-    <em:creator>smplepinboardbutton@neovatar.org</em:creator>
+    <em:version>0.9.4</em:version>
+    <em:creator>simplepinboardbutton@neovatar.org</em:creator>
     <em:contributor></em:contributor>
     <em:aboutURL>chrome://simplepinboardbutton/content/about.xul</em:aboutURL>
-<!--    <em:optionsURL>chrome://simplepinboardbutton/content/options.xul</em:optionsURL> -->
+    <em:optionsURL>chrome://simplepinboardbutton/content/options.xul</em:optionsURL>
     <em:iconURL>chrome://simplepinboardbutton/skin/icon.png</em:iconURL>
     <em:updateURL>http://simplepinboardbutton.neovatar.org/updates.rdf</em:updateURL>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
         <em:minVersion>3.6</em:minVersion>
-        <em:maxVersion>4.0b9pre</em:maxVersion>
+        <em:maxVersion>20.*</em:maxVersion>
       </Description>
     </em:targetApplication>
     <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDi7qWIy2mXvyUoAa1dfoXAsebh09/2eXg5/kbpJTRSsp1ycJpojbn5bN3GH+vWeGIekLd7Hfz8qea8PiNxV1qTN+b25LhAb5NwizlL+VgK2kCzn5+W6W76UUh59hDolhslOHhQ4LYEnkOkAZ26j5ALb8z9mXPeg/stW69jlN6qCQIDAQAB</em:updateKey>

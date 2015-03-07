@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 <!DOCTYPE prefwindow SYSTEM "chrome://simplepinboardbutton/locale/options.dtd">
-<prefwindow id="simplepinboardbutton-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+<prefwindow id="simplepinboardbutton-preferences" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;" width="400" height="300">
   <prefpane id="pane1" label="&pane1.title;">
     <preferences>
-      <preference id="stringpref1" name="extensions.simplepinboardbutton.quicksearchfolder" type="string"/>
+      <preference id="searchmode" name="extensions.simplepinboardbutton.searchmode" type="string"/>
+      <preference id="savemode" name="extensions.simplepinboardbutton.savemode" type="string"/>
     </preferences>
-    <label accesskey="&quicksearchfolder.accesskey;" control="textstringpref">&quicksearchfolder.label;</label><textbox id="textstringpref" preference="stringpref1"/>
+    <label control="searchmodepref">&searchmode.label;</label>
+    <radiogroup preference="searchmode">  
+      <radio id="searchmode.fulltext" value="fulltext" label="&searchmode.choice.fulltext;"/>  
+      <radio id="searchmode.tags" value="tags" label="&searchmode.choice.tags;"/>  
+    </radiogroup>
+    <label></label>
+    <label></label>
+    <label control="savemodepref">&savemode.label;</label>
+    <radiogroup preference="savemode">
+      <radio id="popup" value="popup" label="&savemode.choice.popup;"/>
+      <radio id="popuptags" value="popuptags" label="&savemode.choice.popuptags;"/>
+      <radio id="samewindow" value="samewindow" label="&savemode.choice.samewindow;"/>
+      <radio id="samewindowtags" value="samewindowtags" label="&savemode.choice.samewindowtags;"/>
+    </radiogroup>
   </prefpane>
 </prefwindow>

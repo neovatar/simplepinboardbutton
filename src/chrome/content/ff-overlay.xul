@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="chrome://simplepinboardbutton/skin/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://simplepinboardbutton-os/skin/overlay.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://simplepinboardbutton/locale/overlay.dtd">
 <overlay id="simplepinboardbutton-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="overlay.js"/>
@@ -24,8 +24,8 @@
   </toolbarpalette>
 
   <popup id="contentAreaContextMenu">
-    <menuitem id="context-simplepinboardbuttonPinLink" insertbefore="context-bookmarklink" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-32x32.png" accesskey="P" label="&simplepinboardbuttonContext-pinLink.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinLink',gContextMenu.linkURL);" />
-    <menuitem id="context-simplepinboardbuttonPinPage" insertbefore="context-bookmarkpage" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-32x32.png" accesskey="P" label="&simplepinboardbuttonContext-pinPage.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinPage',gContextMenu.linkURL);" />
+    <menuitem id="context-simplepinboardbuttonPinLink" insertbefore="context-bookmarklink" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-16x16.png" accesskey="P" label="&simplepinboardbuttonContext-pinLink.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinLink',gContextMenu.linkURL);" />
+    <menuitem id="context-simplepinboardbuttonPinPage" insertbefore="context-bookmarkpage" class="menuitem-iconic" image="chrome://simplepinboardbutton/skin/pinboard-red-16x16.png" accesskey="P" label="&simplepinboardbuttonContext-pinPage.label;" oncommand="simplepinboardbutton.onMenuItemCommand('pinPage',gContextMenu.linkURL);" />
   </popup>
 
 
